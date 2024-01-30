@@ -1,0 +1,48 @@
+/* Navbar.css */
+
+.Navbar {
+  background-color: #f8f8f8; /* Light background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  padding: 10px;
+}
+
+.NavbarItems {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Items {
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.Items:hover {
+  color: #00bcd4; /* Change color on hover */
+}
+
+/* Style the logo */
+#nameLogo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Make it a circle, adjust as needed */
+}
+
+/* Cool underline effect on hover */
+.Items::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #00bcd4;
+  transition: width 0.3s ease-in-out;
+}
+
+.Items:hover::after {
+  width: 100%;
+}

@@ -1,17 +1,19 @@
 import "./Navbar.css";
-import logo1 from "./assets/logo1.png";
+import navlogo from "./assets/logo2.png";
 
 function Navbar() {
   return (
-    <>
+    <div className="Navbar">
       <ul className="NavbarItems">
-        <p>Home</p>
-        <p>About</p>
-        <img src={logo1} height={75} width={150}></img>
-        <p>Projects</p>
-        <p>Contact</p>
+        <li className="Items">Home</li>
+        <li className="Items">About</li>
+        <li id="nameLogo">
+          <img src={navlogo} height={100} width={150} alt="Logo" />
+        </li>
+        <li className="Items">Projects</li>
+        <li className="Items">Contact</li>
       </ul>
-    </>
+    </div>
   );
 }
 
