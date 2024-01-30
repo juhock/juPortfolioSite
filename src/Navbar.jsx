@@ -5,13 +5,21 @@ function Navbar() {
   return (
     <div className="Navbar">
       <ul className="NavbarItems">
-        <li className="Items">Home</li>
-        <li className="Items">About</li>
+        <li className="Items" id="home">
+          Home
+        </li>
+        <li className="Items" id="about">
+          About
+        </li>
         <li id="nameLogo">
           <img src={navlogo} height={200} width={300} alt="Logo" />
         </li>
-        <li className="Items">Projects</li>
-        <li className="Items">Contact</li>
+        <li className="Items" id="projects">
+          Projects
+        </li>
+        <li className="Items" id="contact">
+          Contact
+        </li>
       </ul>
     </div>
   );

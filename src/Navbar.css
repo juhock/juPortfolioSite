@@ -19,28 +19,57 @@
   padding: 0px 65px 0px 65px;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
+  position: relative;
 }
 
 .Items:hover {
-  color: #00bcd4; /* Change color on hover */
+  color: #100503; /* Change color on hover */
 }
 
-/* Style the logo */
+.Items::after {
+  content: "";
+  display: inline-block; /* Set to inline-block */
+  width: 100%; /* Full width initially */
+  height: 2px;
+  background: #00bcd4; /* Default underline color */
+  transition: width 0.3s ease-in-out, background 0.3s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Items:hover::after {
+  width: 0; /* Shrink the width on hover */
+}
+
+#about::after {
+  background: #33aaff; /* Change underline color for About */
+}
+
+#projects::after {
+  background: #ff33a3; /* Change underline color for Projects */
+}
+
+#contact::after {
+  background: #a333ff; /* Change underline color for Contact */
+}
+
 #nameLogo img {
   height: auto;
   border-radius: 50%; /* Make it a circle, adjust as needed */
 }
 
-/* Cool underline effect on hover */
-.Items::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #00bcd4;
-  transition: width 0.3s ease-in-out;
+#projects:hover {
+  color: #ff33a3;
 }
 
-.Items:hover::after {
-  width: 100%;
+#contact:hover {
+  color: #a333ff;
+}
+#about:hover {
+  color: #33aaff; /* Change underline color for About */
+}
+
+#home:hover {
+  color: #00bcd4; /* Change underline color for About */
 }
