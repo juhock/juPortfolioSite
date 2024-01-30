@@ -8,7 +8,7 @@ function Navbar() {
         <li className="Items">Home</li>
         <li className="Items">About</li>
         <li id="nameLogo">
-          <img src={navlogo} height={100} width={150} alt="Logo" />
+          <img src={navlogo} height={200} width={300} alt="Logo" />
         </li>
         <li className="Items">Projects</li>
         <li className="Items">Contact</li>
