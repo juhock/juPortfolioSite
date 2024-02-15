@@ -1,6 +1,7 @@
 import profile from "./assets/profile2.png";
 import emailIcon from "./assets/emailIcon.png";
 import linkedIcon from "./assets/linkedin.png";
+import helpHarborIcon from "./assets/HHicon.png";
 
 import "./App.css";
 
@@ -28,7 +29,14 @@ function App() {
       </div>
       <div className="projectsSection">
         <h1>Projects</h1>
-        <p>My projects</p>
+        <a href="https://helpharbor.onrender.com/">
+          <img
+            src={helpHarborIcon}
+            alt="Help Harbor Icon"
+            className="miniIcons"
+          />
+          <li>Help Harbor</li>
+        </a>
       </div>
       <div className="contactSection">
         <h1>Contact</h1>
