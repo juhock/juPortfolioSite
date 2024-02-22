@@ -48,16 +48,70 @@
   justify-content: center;
   align-items: center;
   align-content: space-between;
+  margin-top: 60px;
 }
 
-.contactIcons {
+.allIcons {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  list-style: none;
+  text-decoration: none;
 }
 
-.contactIcons > a {
-  text-decoration: none; /* Remove underline */
+.allIcons > a {
+  text-decoration: none;
   color: inherit; /* Inherit the color from the parent (usually the default text color) */
+}
+
+.titles {
+  font-size: 60px;
+  font-weight: 600;
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #33aaff,
+    #00bcd4,
+    #a333ff,
+    #ff33a3,
+    #ff7f50,
+    #ff33a3,
+    #a333ff,
+    #33aaff
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 15s infinite alternate-reverse;
+}
+@keyframes animated-gradient {
+  to {
+    background-position: 200%;
+  }
+}
+
+#contactTitle {
+  font-size: 60px;
+  font-weight: 600;
+  color: transparent;
+  background-image: url("./assets/test.png");
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.allIcons {
+  max-height: 70px;
+  margin: 30px 10px 0px 10px;
+  max-height: 70px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.allIcons:hover {
+  transform: scale(1.1);
 }
