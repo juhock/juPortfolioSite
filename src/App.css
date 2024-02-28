@@ -40,6 +40,7 @@
   text-decoration: none;
   color: inherit;
   border-radius: 50%;
+  border: solid 2px rgba(0, 0, 0, 0.291);
 }
 
 .contactSection {
@@ -110,8 +111,14 @@
   color: inherit;
   border-radius: 50%;
   transition: transform 0.3s ease;
+  visibility: hidden;
+}
+
+.miniIcons {
+  visibility: visible;
 }
 
 .allIcons:hover {
   transform: scale(1.1);
+  visibility: visible;
 }

@@ -5,6 +5,8 @@ import helpHarborIcon from "./assets/HHicon.png";
 
 import "./App.css";
 
+import ContactForm from "./ContactForm";
+
 function App() {
   return (
     <div className="info">
@@ -66,45 +68,7 @@ function App() {
             </div>
           </ul>
         </div>
-
-        <div className="contact-container">
-          <form
-            action="https://api.web3forms.com/submit"
-            method="POST"
-            className="contact-left"
-          ></form>
-          <input
-            type="hidden"
-            name="access_key"
-            value="5e04e505-ddc6-4f57-8893-16f767395990"
-          ></input>
-          <div className="contact-left-title">
-            <h2>Get in touch</h2>
-            <hr></hr>
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              className="contact-inputs"
-              required
-            ></input>
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              className="contact-inputs"
-              required
-            ></input>
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              className="contact-inputs"
-              required
-            ></textarea>
-            <button type="submit">Submit</button>
-          </div>
-          <div className="contact-right"></div>
-        </div>
+        <ContactForm />
       </div>
     </div>
   );

@@ -1,0 +1,14 @@
+.allContactForm {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  border: 2px solid black;
+}
