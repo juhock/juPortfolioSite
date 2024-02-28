@@ -1,4 +1,4 @@
-.allContactForm {
+/* .allContactForm {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -11,4 +11,59 @@
   align-items: start;
   gap: 20px;
   border: 2px solid black;
+}
+ */
+
+.allContactForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff; /* White background */
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  flex-wrap: nowrap;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-left-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-inputs {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  width: 20%;
+  padding: 15px;
+  background-color: #ffb6c1; /* Pastel pink */
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff9aa2; /* Lighter pastel pink on hover */
 }
