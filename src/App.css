@@ -21,7 +21,14 @@
 }
 
 .aboutText {
-  padding: 0px 130px 0px 130px;
+  padding: 30px 150px 0px 150px;
+}
+
+.bioText {
+  font-size: 14pt;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .links {
@@ -63,7 +70,7 @@
 
 .allIcons > a {
   text-decoration: none;
-  color: inherit; /* Inherit the color from the parent (usually the default text color) */
+  color: inherit;
 }
 
 .titles {

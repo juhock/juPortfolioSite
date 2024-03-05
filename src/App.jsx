@@ -14,18 +14,13 @@ function App() {
         <img src={profile} alt="Picture of Julia Hocken" id="profilePicture" />
         <div className="aboutText">
           <h1>About Me </h1>
-          <p>
-            Welcome to my portfolio page! My name's Julia, and I'm a web
-            developer passionate about making a positive impact in accessibility
-            through technology.
+          <p className="bioText">
+            I'm a web developer with a BA & MA in Psychology, passionate about
+            making a positive impact in accessibility through technology.
           </p>
-          <p>
-            I hold a BA and MA in Psychology, but decided to pursue web
-            development through Fullstack Academy's Coding Bootcamp.
-          </p>
-          <p>
-            Currently, I'm open to all job/project inquiries, so if there's
-            something you'd like to see come to life, please reach out!{" "}
+          <p className="bioText">
+            If there's something you'd like to see come to life, please reach
+            out!
           </p>
         </div>
       </div>
