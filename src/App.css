@@ -1,80 +1,40 @@
-.info {
+/*everything minus navbar  */
+.main {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
 }
 
+/* about section  */
+.aboutSection {
+  background-image: url("./assets/profileback.png");
+  background-size: cover;
+  display: flex;
+  width: 100%;
+}
 #profilePicture {
   max-height: 350px;
   max-width: fit-content;
   display: flex;
   flex-wrap: wrap;
 }
-
-.aboutSection {
-  background-image: url("./assets/profileback.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+.aboutTextAll {
+  padding: 0px 50px 0px 50px;
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 
-.aboutText {
-  padding: 30px 150px 0px 150px;
-}
-
-.bioText {
+.aboutTextlil {
   font-size: 14pt;
   display: flex;
   justify-content: center;
   font-weight: bold;
 }
 
-.links {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  margin: 0;
-}
-
-.miniIcons {
-  max-height: 70px;
-  margin: 0px 10px 0px 10px;
-  max-height: 70px;
-  margin-right: 10px;
-  text-decoration: none;
-  color: inherit;
-  border-radius: 50%;
-  border: solid 2px rgba(0, 0, 0, 0.291);
-}
-
-.contactSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: space-between;
-  margin-top: 60px;
-}
-
-.allIcons {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  text-decoration: none;
-}
-
-.allIcons > a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.titles {
-  font-size: 60px;
+/* projects section */
+#projectTitle {
+  font-size: 70px;
   font-weight: 600;
   color: transparent;
   background-image: linear-gradient(
@@ -100,6 +60,56 @@
   }
 }
 
+/* linked icons */
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 70px;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  visibility: hidden;
+}
+
+.icons > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icons:hover {
+  transform: scale(1.1);
+  visibility: visible;
+  color: rgb(163, 162, 162);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+
+.miniIcons {
+  max-height: 70px;
+  margin: 0px 10px 0px 10px;
+  max-height: 70px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 50%;
+  border: solid 2px rgba(0, 0, 0, 0.291);
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  margin-top: 60px;
+}
+
 #contactTitle {
   font-size: 60px;
   font-weight: 600;
@@ -109,24 +119,6 @@
   background-clip: text;
 }
 
-.allIcons {
-  max-height: 70px;
-  margin: 30px 10px 0px 10px;
-  max-height: 70px;
-  margin-right: 10px;
-  text-decoration: none;
-  color: inherit;
-  border-radius: 50%;
-  transition: transform 0.3s ease;
-  visibility: hidden;
-}
-
 .miniIcons {
   visibility: visible;
-}
-
-.allIcons:hover {
-  transform: scale(1.1);
-  visibility: visible;
-  color: rgb(163, 162, 162);
 }

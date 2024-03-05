@@ -9,24 +9,24 @@ import ContactForm from "./ContactForm";
 
 function App() {
   return (
-    <div className="info">
+    <div className="main">
       <div className="aboutSection">
         <img src={profile} alt="Picture of Julia Hocken" id="profilePicture" />
-        <div className="aboutText">
+        <div className="aboutTextAll">
           <h1>About Me </h1>
-          <p className="bioText">
+          <p className="aboutTextlil">
             I'm a web developer with a BA & MA in Psychology, passionate about
             making a positive impact in accessibility through technology.
           </p>
-          <p className="bioText">
+          <p className="aboutTextlil">
             If there's something you'd like to see come to life, please reach
             out!
           </p>
         </div>
       </div>
       <div className="projectsSection">
-        <h1 className="titles">Recent Projects</h1>
-        <div className="allIcons">
+        <h1 id="projectTitle">Recent Projects</h1>
+        <div className="icons">
           <a href="https://helpharbor.onrender.com/">
             <img
               src={helpHarborIcon}
@@ -39,19 +39,15 @@ function App() {
       </div>
       <div className="contactSection">
         <h1 id="contactTitle">Contact Me</h1>
-        <p>
-          You can reach me via email ju.hocken@gmail.com, connect with me
-          through LinkedIn, or fill out the form below to send me a message.
-        </p>
         <div>
           <ul className="links">
-            <div className="allIcons">
+            <div className="icons">
               <a href="mailto:ju.hocken@gmail.com">
                 <img src={emailIcon} alt="Email Icon" className="miniIcons" />
                 <li>Email</li>
               </a>
             </div>
-            <div className="allIcons">
+            <div className="icons">
               <a href="https://www.linkedin.com/in/julia-hocken/">
                 <img
                   src={linkedIcon}
@@ -63,8 +59,8 @@ function App() {
             </div>
           </ul>
         </div>
-        <ContactForm />
       </div>
+      <ContactForm />
     </div>
   );
 }
