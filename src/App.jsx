@@ -36,7 +36,7 @@ function App() {
                     alt="Help Harbor Icon"
                     className="iconPic"
                   />
-                  <p>Help Harbor</p>
+                  <p className="iconName">Help Harbor</p>
                 </a>
               </div>
             </li>
@@ -65,7 +65,7 @@ function App() {
                 <a href="mailto:ju.hocken@gmail.com">
                   <img src={emailIcon} alt="Email Icon" className="iconPic" />
                 </a>
-                <p>Email</p>
+                <p className="iconName">Email</p>
               </div>
             </li>
             <li>
@@ -77,7 +77,7 @@ function App() {
                     className="iconPic"
                   />
                 </a>
-                <p>LinkedIn</p>
+                <p className="iconName">LinkedIn</p>
               </div>
             </li>
           </ul>

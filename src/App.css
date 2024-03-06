@@ -73,7 +73,8 @@
   align-items: center;
   align-content: space-between;
   justify-content: center;
-  font-size: 60px;
+  font-size: 70px;
+
   font-weight: 600;
   color: transparent;
   background-image: url("./assets/test.png");
@@ -114,13 +115,16 @@
 }
 
 .iconPic {
-  max-height: 70px;
-  margin: 0px 10px 0px 10px;
-  max-height: 70px;
-  color: inherit;
+  max-height: 100px;
+  margin: 80px 10px 0px 10px;
+  max-height: 100px;
   border-radius: 50%;
 }
 
 .iconPic {
   visibility: visible;
+}
+
+.iconName {
+  margin-top: 5px;
 }
