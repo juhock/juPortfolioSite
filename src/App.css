@@ -33,7 +33,7 @@
 
 /* projects section */
 #projectTitle {
-  font-size: 70px;
+  font-size: 100px;
   font-weight: 600;
   color: transparent;
   background-image: linear-gradient(
@@ -73,7 +73,7 @@
   align-items: center;
   align-content: space-between;
   justify-content: center;
-  font-size: 70px;
+  font-size: 80px;
 
   font-weight: 600;
   color: transparent;
