@@ -1,9 +1,9 @@
-.Navbar {
+.navbar {
   padding: 5px;
   width: 100%;
 }
 
-.NavbarItems {
+.navbarItems {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@
   width: 100%;
 }
 
-.Items {
+.items {
   font-size: 18px;
   padding: 0px 65px 0px 65px;
   cursor: pointer;
@@ -21,11 +21,11 @@
   position: relative;
 }
 
-.Items:hover {
+.items:hover {
   color: #100503;
 }
 
-.Items::after {
+.items::after {
   content: "";
   display: inline-block;
   width: 100%;
@@ -37,7 +37,7 @@
   left: 0;
 }
 
-.Items:hover::after {
+.items:hover::after {
   width: 0;
 }
 

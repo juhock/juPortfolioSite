@@ -15,8 +15,9 @@ function App() {
         <div className="aboutTextAll">
           <h1>About Me </h1>
           <p className="aboutTextlil">
-            I'm a web developer with a BA & MA in Psychology, passionate about
-            making a positive impact in accessibility through technology.
+            I'm a fullstack web developer with a BA & MA in Psychology,
+            passionate about making a positive impact in accessibility through
+            technology.
           </p>
           <p className="aboutTextlil">
             If there's something you'd like to see come to life, please reach

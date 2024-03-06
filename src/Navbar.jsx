@@ -3,21 +3,21 @@ import navlogo from "./assets/logo2.png";
 
 function Navbar() {
   return (
-    <div className="Navbar">
-      <ul className="NavbarItems">
-        <li className="Items" id="home">
+    <div className="navbar">
+      <ul className="navbarItems">
+        <li className="items" id="home">
           Home
         </li>
-        <li className="Items" id="about">
+        <li className="items" id="about">
           About
         </li>
         <li id="nameLogo">
           <img src={navlogo} height={200} width={300} alt="Logo" />
         </li>
-        <li className="Items" id="projects">
+        <li className="items" id="projects">
           Projects
         </li>
-        <li className="Items" id="contact">
+        <li className="items" id="contact">
           Contact
         </li>
       </ul>

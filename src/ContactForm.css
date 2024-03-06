@@ -34,13 +34,10 @@
   padding: 15px;
   margin: 10px 0;
   border: 1px solid #ddd;
+  border: solid #f88fc076;
 
   border-radius: 10px;
   font-size: 16px;
-}
-
-.contact-inputs:focus {
-  border-color: #f88fc0;
 }
 
 #submitButton {
