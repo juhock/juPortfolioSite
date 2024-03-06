@@ -29,7 +29,6 @@
   font-size: 14pt;
   display: flex;
   justify-content: center;
-  font-weight: bold;
 }
 
 /* projects section */
@@ -88,9 +87,10 @@
 .links {
   display: flex;
   flex-direction: row;
+  list-style: none;
 }
 
-.miniIcons {
+.iconPic {
   max-height: 70px;
   margin: 0px 10px 0px 10px;
   max-height: 70px;
@@ -99,6 +99,10 @@
   color: inherit;
   border-radius: 50%;
   border: solid 2px rgba(0, 0, 0, 0.291);
+}
+
+.iconPic {
+  visibility: visible;
 }
 
 .contactSection {
@@ -117,8 +121,4 @@
   background-image: url("./assets/test.png");
   -webkit-background-clip: text;
   background-clip: text;
-}
-
-.miniIcons {
-  visibility: visible;
 }
