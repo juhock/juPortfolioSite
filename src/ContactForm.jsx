@@ -7,7 +7,7 @@ export default function ContactForm() {
         <form
           action="https://api.web3forms.com/submit"
           method="POST"
-          className="test"
+          className="formContainer"
         >
           <input
             type="hidden"
