@@ -6,19 +6,28 @@ function Navbar() {
     <div className="navbar">
       <ul className="navbarItems">
         <li className="items" id="home">
-          Home
+          <a className="nav_link" href="#homeClick">
+            {" "}
+            Home{" "}
+          </a>
         </li>
         <li className="items" id="about">
-          About
+          <a className="nav_link" href="#aboutClick">
+            About
+          </a>
         </li>
         <li id="nameLogo">
           <img src={navlogo} height={200} width={300} alt="Logo" />
         </li>
         <li className="items" id="projects">
-          Projects
+          <a className="nav_link" href="#projectsClick">
+            Projects
+          </a>
         </li>
         <li className="items" id="contact">
-          Contact
+          <a className="nav_link" href="#contactClick">
+            Contact
+          </a>
         </li>
       </ul>
     </div>
