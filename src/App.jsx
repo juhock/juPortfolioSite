@@ -10,8 +10,8 @@ import ContactForm from "./ContactForm";
 function App() {
   return (
     <div className="main">
-      <div id="homeClick"></div>
-      <div className="aboutSection" id="aboutClick">
+      <div id="aboutMe"></div>
+      <div className="aboutSection">
         <img src={profile} alt="Picture of Julia Hocken" id="profilePicture" />
         <div className="aboutTextAll">
           <h1>About Me </h1>
@@ -26,7 +26,7 @@ function App() {
           </p>
         </div>
       </div>
-      <div className="projectsSection" id="projectsClick">
+      <div className="projectsSection" id="myProjects">
         <h1 id="projectTitle">Recent Projects</h1>
         <div className="icons">
           <ul className="links">
@@ -58,7 +58,7 @@ function App() {
         </div>
       </div>
 
-      <div className="contactSection" id="contactClick">
+      <div className="contactSection" id="contactInfo">
         <h1 id="contactTitle">Contact Me</h1>
         <div>
           <ul className="links">
@@ -85,7 +85,9 @@ function App() {
           </ul>
         </div>
       </div>
-      <ContactForm />
+      <div id="messageMe">
+        <ContactForm />
+      </div>
     </div>
   );
 }
