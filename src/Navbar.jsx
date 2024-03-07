@@ -5,12 +5,12 @@ function Navbar() {
   return (
     <nav className="navbar">
       <ul className="navbarList">
-        <li className="items" id="home">
+        <li className="items" id="about">
           <a className="nav_link" href="#aboutMe">
             About
           </a>
         </li>
-        <li className="items" id="about">
+        <li className="items" id="projects">
           <a className="nav_link" href="#myProjects">
             Projects
           </a>
@@ -18,12 +18,12 @@ function Navbar() {
         <li id="nameLogo">
           <img src={navlogo} height={200} width={300} alt="Logo" id="logo" />
         </li>
-        <li className="items" id="projects">
+        <li className="items" id="contact">
           <a className="nav_link" href="#contactInfo">
             Contact
           </a>
         </li>
-        <li className="items" id="contact">
+        <li className="items" id="message">
           <a className="nav_link" href="#messageMe">
             Message
           </a>

@@ -50,35 +50,33 @@ a {
   width: 0;
 }
 
-#about::after {
-  background: #33aaff;
-}
-
 #logo {
   width: 250px;
   height: auto;
   border-radius: 50%;
 }
 
-#projects::after {
-  background: #ff33a3;
-}
-
-#contact::after {
-  background: #a333ff;
-}
-
-#projects:hover {
-  color: #ff33a3;
-}
-
-#contact:hover {
-  color: #a333ff;
-}
 #about:hover {
+  color: #00bcd4;
+}
+#projects::after {
+  background: #33aaff;
+}
+#projects:hover {
   color: #33aaff;
 }
 
-#home:hover {
-  color: #00bcd4;
+#contact::after {
+  background: #ff33a3;
+}
+#contact:hover {
+  color: #ff33a3;
+}
+
+#message::after {
+  background: #a333ff;
+}
+
+#message:hover {
+  color: #a333ff;
 }
