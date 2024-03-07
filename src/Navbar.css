@@ -23,6 +23,7 @@ a {
 .items {
   font-size: 18px;
   padding: 0px 65px 0px 65px;
+  margin: 40px;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
   position: relative;
