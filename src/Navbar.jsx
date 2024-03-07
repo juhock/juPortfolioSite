@@ -17,7 +17,7 @@ function Navbar() {
           </a>
         </li>
         <li id="nameLogo">
-          <img src={navlogo} height={200} width={300} alt="Logo" />
+          <img src={navlogo} height={200} width={300} alt="Logo" id="logo" />
         </li>
         <li className="items" id="projects">
           <a className="nav_link" href="#projectsClick">
