@@ -3,12 +3,11 @@ import navlogo from "./assets/logo2.png";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <ul className="navbarItems">
+    <nav className="navbar">
+      <ul className="navbarList">
         <li className="items" id="home">
           <a className="nav_link" href="#homeClick">
-            {" "}
-            Home{" "}
+            Home
           </a>
         </li>
         <li className="items" id="about">
@@ -30,7 +29,7 @@ function Navbar() {
           </a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
 

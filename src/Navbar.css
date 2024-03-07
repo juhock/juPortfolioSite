@@ -1,24 +1,22 @@
 .navbar {
-  padding: 5px;
+  position: fixed;
+  background-color: white;
   width: 100%;
+  margin-top: -20px;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
-#logo {
-  width: 250px;
-  height: auto;
-  border-radius: 50%;
-}
-.navbarItems {
+.navbarList {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   width: 100%;
 }
 
@@ -52,6 +50,12 @@ a {
 
 #about::after {
   background: #33aaff;
+}
+
+#logo {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
 }
 
 #projects::after {
