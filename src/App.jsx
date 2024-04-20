@@ -50,7 +50,6 @@ function App() {
                     src={guessingGameIcon}
                     alt="Guessing Game Icon"
                     className="iconPic"
-                    id="test"
                   />
                   <p>Julia's Guessing Game</p>
                 </a>
