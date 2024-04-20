@@ -2,6 +2,7 @@ import profile from "./assets/profile2.png";
 import emailIcon from "./assets/emailIcon.png";
 import linkedIcon from "./assets/linkedin.png";
 import helpHarborIcon from "./assets/HHicon.png";
+import guessingGameIcon from "./assets/GG2.png";
 
 import "./App.css";
 
@@ -42,18 +43,19 @@ function App() {
                 </a>
               </div>
             </li>
-            {/* <li>
+            <li>
               <div className="icons">
-                <a href="https://helpharbor.onrender.com/">
+                <a href="https://juliasguessinggame.netlify.app">
                   <img
-                    src={helpHarborIcon}
-                    alt="Help Harbor Icon"
+                    src={guessingGameIcon}
+                    alt="Guessing Game Icon"
                     className="iconPic"
+                    id="test"
                   />
-                  <p>Help Harbor</p>
+                  <p>Julia's Guessing Game</p>
                 </a>
               </div>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>
