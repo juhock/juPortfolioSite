@@ -3,6 +3,7 @@ import emailIcon from "./assets/emailIcon.png";
 import linkedIcon from "./assets/linkedin.png";
 import helpHarborIcon from "./assets/HHicon.png";
 import guessingGameIcon from "./assets/GG2.png";
+import diceGameIcon from "./assets/DG.png";
 
 import "./App.css";
 
@@ -29,7 +30,7 @@ function App() {
       </div>
       <div className="projectsSection" id="myProjects">
         <h1 id="projectTitle">Recent Projects</h1>
-        <div className="icons">
+        <div className="alignProjects">
           <ul className="links">
             <li>
               <div className="icons">
@@ -52,6 +53,18 @@ function App() {
                     className="iconPic"
                   />
                   <p>Julia's Guessing Game</p>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div className="icons">
+                <a href="https://juliasdicegame.netlify.app/">
+                  <img
+                    src={diceGameIcon}
+                    alt="Dice Game Icon"
+                    className="iconPic"
+                  />
+                  <p>Julia's Dice Game</p>
                 </a>
               </div>
             </li>

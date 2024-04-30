@@ -134,3 +134,9 @@
 .iconName {
   margin-top: 5px;
 }
+
+.alignProjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
