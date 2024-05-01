@@ -2,7 +2,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 /* about section  */
@@ -12,13 +12,17 @@
   background-image: url("./assets/profileback.png");
   background-size: cover;
   display: flex;
-  width: 100%;
+  width: 80%;
+  border-radius: 10px;
+  justify-content: center;
+  filter: drop-shadow(0 0 0.15rem rgb(236, 90, 180));
 }
 #profilePicture {
   max-height: 350px;
   max-width: fit-content;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  filter: drop-shadow(0 0 0.15rem rgb(236, 158, 90));
 }
 .aboutTextAll {
   padding: 0px 50px 0px 50px;
