@@ -43,6 +43,7 @@ function App() {
                     src={helpHarborIcon}
                     alt="Help Harbor Icon"
                     className="iconPic"
+                    id="helpHarborPix"
                   />
                   <p className="iconName">Help Harbor</p>
                 </a>
@@ -59,6 +60,7 @@ function App() {
                     src={guessingGameIcon}
                     alt="Guessing Game Icon"
                     className="iconPic"
+                    id="guessingGamePix"
                   />
                   <p>Julia's Guessing Game</p>
                 </a>
@@ -75,6 +77,7 @@ function App() {
                     src={diceGameIcon}
                     alt="Dice Game Icon"
                     className="iconPic"
+                    id="diceGamePix"
                   />
                   <p>Julia's Dice Game</p>
                 </a>

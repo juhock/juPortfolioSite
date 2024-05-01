@@ -15,14 +15,14 @@
   width: 80%;
   border-radius: 10px;
   justify-content: center;
-  filter: drop-shadow(0 0 0.15rem rgb(236, 90, 180));
+  filter: drop-shadow(0 0 0.15rem rgb(248, 143, 39));
 }
 #profilePicture {
   max-height: 350px;
   max-width: fit-content;
   display: flex;
-  flex-wrap: nowrap;
-  filter: drop-shadow(0 0 0.15rem rgb(236, 158, 90));
+  flex-wrap: wrap;
+  filter: drop-shadow(0 0 0.15rem rgb(230, 121, 26));
 }
 .aboutTextAll {
   padding: 0px 50px 0px 50px;
@@ -143,4 +143,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#helpHarborPix:hover {
+  filter: drop-shadow(0 0 0.2rem rgb(70, 118, 79));
+}
+
+#guessingGamePix:hover {
+  filter: drop-shadow(0 0 0.2rem rgb(14, 1, 2));
+}
+
+#diceGamePix:hover {
+  filter: drop-shadow(0 0 0.2rem rgb(154, 27, 217));
 }
