@@ -58,12 +58,14 @@ a {
 
 #about:hover {
   color: #00bcd4;
+  cursor: default;
 }
 #projects::after {
   background: #33aaff;
 }
 #projects:hover {
   color: #33aaff;
+  cursor: default;
 }
 
 #contact::after {
@@ -71,6 +73,7 @@ a {
 }
 #contact:hover {
   color: #ff33a3;
+  cursor: default;
 }
 
 #message::after {
@@ -79,4 +82,5 @@ a {
 
 #message:hover {
   color: #a333ff;
+  cursor: default;
 }

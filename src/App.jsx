@@ -34,7 +34,11 @@ function App() {
           <ul className="links">
             <li>
               <div className="icons">
-                <a href="https://helpharbor.onrender.com/" target="_blank">
+                <a
+                  href="https://helpharbor.onrender.com/"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <img
                     src={helpHarborIcon}
                     alt="Help Harbor Icon"
@@ -49,6 +53,7 @@ function App() {
                 <a
                   href="https://juliasguessinggame.netlify.app"
                   target="_blank"
+                  rel="noopener"
                 >
                   <img
                     src={guessingGameIcon}
@@ -61,7 +66,11 @@ function App() {
             </li>
             <li>
               <div className="icons">
-                <a href="https://juliasdicegame.netlify.app/" target="_blank">
+                <a
+                  href="https://juliasdicegame.netlify.app/"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <img
                     src={diceGameIcon}
                     alt="Dice Game Icon"
@@ -81,7 +90,11 @@ function App() {
           <ul className="links">
             <li>
               <div className="icons">
-                <a href="mailto:ju.hocken@gmail.com" target="_blank">
+                <a
+                  href="mailto:ju.hocken@gmail.com"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <img src={emailIcon} alt="Email Icon" className="iconPic" />
                 </a>
                 <p className="iconName">Email</p>
@@ -92,6 +105,7 @@ function App() {
                 <a
                   href="https://www.linkedin.com/in/julia-hocken/"
                   target="_blank"
+                  rel="noopener"
                 >
                   <img
                     src={linkedIcon}
