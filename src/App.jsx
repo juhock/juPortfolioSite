@@ -34,7 +34,7 @@ function App() {
           <ul className="links">
             <li>
               <div className="icons">
-                <a href="https://helpharbor.onrender.com/">
+                <a href="https://helpharbor.onrender.com/" target="_blank">
                   <img
                     src={helpHarborIcon}
                     alt="Help Harbor Icon"
@@ -46,7 +46,10 @@ function App() {
             </li>
             <li>
               <div className="icons">
-                <a href="https://juliasguessinggame.netlify.app">
+                <a
+                  href="https://juliasguessinggame.netlify.app"
+                  target="_blank"
+                >
                   <img
                     src={guessingGameIcon}
                     alt="Guessing Game Icon"
@@ -58,7 +61,7 @@ function App() {
             </li>
             <li>
               <div className="icons">
-                <a href="https://juliasdicegame.netlify.app/">
+                <a href="https://juliasdicegame.netlify.app/" target="_blank">
                   <img
                     src={diceGameIcon}
                     alt="Dice Game Icon"
@@ -78,7 +81,7 @@ function App() {
           <ul className="links">
             <li>
               <div className="icons">
-                <a href="mailto:ju.hocken@gmail.com">
+                <a href="mailto:ju.hocken@gmail.com" target="_blank">
                   <img src={emailIcon} alt="Email Icon" className="iconPic" />
                 </a>
                 <p className="iconName">Email</p>
@@ -86,7 +89,10 @@ function App() {
             </li>
             <li>
               <div className="icons">
-                <a href="https://www.linkedin.com/in/julia-hocken/">
+                <a
+                  href="https://www.linkedin.com/in/julia-hocken/"
+                  target="_blank"
+                >
                   <img
                     src={linkedIcon}
                     alt="LinkedIn Icon"
